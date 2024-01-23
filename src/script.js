@@ -194,9 +194,17 @@ works.addEventListener("click", function () {
               <a href="https://github.com/GolamRafi27oo/First-Step-Of-learning-Programming" target="_blank">First-Step-Of-learning-Programming</a>
             </div>
             <div
+              class="flex dark:bg-[#374151] bg-[#d6d6d8] hover:bg-[#c7c7c7] dark:hover:bg-[#222222] shadow-md rounded-sm  h-20 justify-center pt-7 ease-in duration-150">
+              <a href="https://github.com/GolamRafi27oo/OSI-Model" target="_blank">OSI Model</a>
+            </div>
+            <!-- 
+            dissable/working on it!
+            <div
               class="flex dark:bg-[#222222] bg-[#747474] rounded-sm h-20 justify-center pt-7 group opacity-40 ease-in duration-150">
               <a class="cursor-not-allowed dark:text-white">OSI Model (Working on it)</a>
-            </div>
+          </div>
+            -->
+
           </div>
         </div>
         <div>
@@ -373,12 +381,18 @@ artworks.addEventListener("click", function () {
           <h1 class="p-2 uppercase text-lg font-semibold">Art Gallery</h1>
 
           <div class="p-2 grid grid-cols-3 gap-4">
+              <img class="shadow-md" onClick="window.open(this.src)" class="rounded-md hover:brightness-50" src="./src/image/artwork/IMG_8229.JPEG" alt="">
+              <img class="shadow-md" onClick="window.open(this.src)" class="rounded-md hover:brightness-50" src="./src/image/artwork/IMG_8408.JPEG" alt="">
+              <img class="shadow-md" onClick="window.open(this.src)" class="rounded-md hover:brightness-50" src="./src/image/artwork/IMG_9288.JPEG" alt="">
+              <img class="shadow-md" onClick="window.open(this.src)" class="rounded-md hover:brightness-50" src="./src/image/artwork/IMG_8580.JPEG" alt="">
+              <img class="shadow-md" onClick="window.open(this.src)" class="rounded-md hover:brightness-50" src="./src/image/artwork/IMG_9269.JPEG" alt="">
+              <img class="shadow-md" onClick="window.open(this.src)" class="rounded-md hover:brightness-50" src="./src/image/artwork/IMG_9302.JPG" alt="">
+              <img class="shadow-md" onClick="window.open(this.src)" class="rounded-md hover:brightness-50" src="./src/image/artwork/IMG_9557.JPEG" alt="">
+              <img class="shadow-md" onClick="window.open(this.src)" class="rounded-md hover:brightness-50" src="./src/image/artwork/IMG_9556.JPEG" alt="">
+              <img class="shadow-md" onClick="window.open(this.src)" class="rounded-md hover:brightness-50" src="./src/image/artwork/IMG_8549.JPEG" alt="">
               <img class="shadow-md" onClick="window.open(this.src)" class="rounded-md hover:brightness-50" src="./src/image/artwork/IMG_7778.JPG" alt="">
-              <img class="shadow-md" onClick="window.open(this.src)" class="rounded-md hover:brightness-50" src="./src/image/artwork/IMG_7782.JPG" alt="">
               <img class="shadow-md" onClick="window.open(this.src)" class="rounded-md hover:brightness-50" src="./src/image/artwork/IMG_7780.JPG" alt="">
-              <img class="shadow-md" onClick="window.open(this.src)" class="rounded-md hover:brightness-50" src="./src/image/artwork/IMG_7776.JPG" alt="">
               <img class="shadow-md" onClick="window.open(this.src)" class="rounded-md hover:brightness-50" src="./src/image/artwork/IMG_7781.JPG" alt="">
-              <img class="shadow-md" onClick="window.open(this.src)" class="rounded-md hover:brightness-50" src="./src/image/artwork/IMG_7777.JPG" alt="">
           </div>
       </div>
       <div class="pt-5 text-center hover:text-[#677997]"> 
