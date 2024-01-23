@@ -340,7 +340,7 @@ artworks.addEventListener("click", function () {
     <div
       class="pt-2 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 text-center font-semibold text-black">
       <div
-        class="flex bg-gradient-to-r from-pink-500 hover:to-yellow-500 shadow-md group text-center rounded-sm ease-in duration-150">
+        class="flex bg-gradient-to-r from-pink-500 hover:to-yellow-500 shadow-md text-center rounded-sm ease-in duration-150">
         <i
           class="fa-brands fa-square-instagram shadow-md rounded-sm h-100 w-100 flex p-2"></i>
         <div class="flex items-center">
@@ -352,7 +352,7 @@ artworks.addEventListener("click", function () {
         </div>
       </div>
       <div
-        class="flex bg-gradient-to-r from-red-600 hover:to-red-300 shadow-md group text-center rounded-sm ease-in duration-150">
+        class="flex bg-gradient-to-r from-red-600 hover:to-red-300 shadow-md text-center rounded-sm ease-in duration-150">
         <i
           class="fa-brands fa-square-pinterest shadow-md rounded-sm h-100 w-100 flex p-2"></i>
         <div class="flex items-center">
@@ -364,7 +364,7 @@ artworks.addEventListener("click", function () {
           </div>
         </div>
         <div
-          class="flex bg-gradient-to-r from-blue-700 hover:to-blue-300 shadow-md group text-center rounded-sm ease-in duration-150">
+          class="flex bg-gradient-to-r from-blue-700 hover:to-blue-300 shadow-md text-center rounded-sm ease-in duration-150">
           <i
             class="fa-brands fa-square-facebook shadow-md rounded-sm h-100 w-100 flex p-2"></i>
           <div class="flex items-center">
