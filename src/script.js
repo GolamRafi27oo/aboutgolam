@@ -50,6 +50,17 @@ skills.addEventListener("click", function () {
     <h1 class="uppercase text-lg font-semibold">Problem & Judge</h1>
       <div class="pt-2 grid sm:grid-cols-2 lg:grid-cols-4 gap-4 text-center font-semibold">
         <div
+          class="flex dark:bg-[#374151] bg-[#d6d6d8] dark:hover:bg-[#222222] hover:bg-[#c7c7c7] shadow-md group text-center rounded-sm ease-in duration-150">
+          <img class="rounded-sm h-20 w-20 flex p-2"
+          src="src/image/github.png"" alt="" />
+          <div class="flex items-center">
+            <a href="https://github.com/GolamRafi27oo" target="_blank"
+              >Github
+              <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+        <div
           class="flex dark:bg-[#374151] bg-[#d6d6d8] dark:hover:bg-[#222222] hover:bg-[#c7c7c7] shadow-md group text-center rounded-sm  ease-in duration-150">
           <img
             class="rounded-sm h-20 w-20 flex p-2"
