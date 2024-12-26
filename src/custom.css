@@ -1,0 +1,44 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar track */
+::-webkit-scrollbar {
+  width: 12px; /* Width for vertical scrollbar */
+  height: 12px; /* Height for horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #0301116c; /* Light gray background */
+}
+/* Custom scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #3741529a; /* Dark gray color */
+  border-radius: 10px;
+  padding: 1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1e174b7a; /* Darker gray when hovered */
+}
+
+.cusAnime {
+  opacity: 0;
+  /* This ensures the element is invisible until it comes into view */
+}
+
+.cusAnime.in-view {
+  animation: appear 0.5s linear forwards;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
